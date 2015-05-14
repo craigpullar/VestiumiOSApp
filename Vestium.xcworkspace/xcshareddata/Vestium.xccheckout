@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1F1FB7E9-5044-4446-938C-D37C16F6B75C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Vestium</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C12BED6C-6581-40E9-848C-904CE0122ECE</key>
+		<string>https://github.com/DanielKoehler/VestiumiOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Vestium.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C12BED6C-6581-40E9-848C-904CE0122ECE</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/DanielKoehler/VestiumiOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C12BED6C-6581-40E9-848C-904CE0122ECE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C12BED6C-6581-40E9-848C-904CE0122ECE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>VestiumiOSNEW</string>
+		</dict>
+	</array>
+</dict>
+</plist>

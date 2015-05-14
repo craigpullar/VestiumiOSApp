@@ -1,0 +1,32 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#define _AFNETWORKING_PREFER_NSJSONSERIALIZATION_
+
+#ifndef __IPHONE_7_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+#import "VestiumUI.h"
+
+#define kAPI_SCHEME @"http"
+#define kAPI_PORT @""
+#define kAPI_HOST @"vestiumapi.herokuapp.com"
+#define kAPI_AUTH_PATH @"/oauth2/access_token"
+
+
+#define kAPI_MEDIA_ROOT @"http://vestiumapi.herokuapp.com/media"
+#define kCLIENT_ID @"5f9251e610e8f721b12c" // VestiumiOS ID
+#define kCLIENT_SECRET @"19a8be994ff8203632dc88d908ea80e289df1aaf" // VestiumiOS Secret - Must be updated for production.
+
+#endif

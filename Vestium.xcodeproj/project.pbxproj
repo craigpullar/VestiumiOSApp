@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48E8701C19924BB4003BF07D /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E8701B19924BB4003BF07D /* ProfileViewController.m */; };
+		48E8701E19925F96003BF07D /* cover.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 48E8701D19925F96003BF07D /* cover.jpeg */; };
+		48E870221992782C003BF07D /* cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48E870211992782C003BF07D /* cover.jpg */; };
+		4C5D50A4198FE1D00015A31A /* NSDate+Relativate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D50A3198FE1D00015A31A /* NSDate+Relativate.m */; };
+		4C5D50AA1990DE010015A31A /* STTweetLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D50A71990DE010015A31A /* STTweetLabel.m */; };
+		4C5D50AB1990DE010015A31A /* STTweetTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D50A91990DE010015A31A /* STTweetTextStorage.m */; };
+		4C6E4D0E198E6A1D005712B9 /* DetailedPostController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E4D0D198E6A1D005712B9 /* DetailedPostController.m */; };
+		4C6E4D10198E77EF005712B9 /* Colours.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C6E4D0F198E77EF005712B9 /* Colours.strings */; };
+		4C6E4D19198F7BF2005712B9 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6E4D18198F7BF2005712B9 /* OpenGLES.framework */; };
+		4C6E4D26198F8070005712B9 /* LEColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E4D23198F8070005712B9 /* LEColorPicker.m */; };
+		4C6E4D27198F8070005712B9 /* UIColor+YUVSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E4D25198F8070005712B9 /* UIColor+YUVSpace.m */; };
+		4C6F4DB6198A3CCD001FAA51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6F4DB5198A3CCD001FAA51 /* Foundation.framework */; };
+		4C6F4DB8198A3CCD001FAA51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6F4DB7198A3CCD001FAA51 /* CoreGraphics.framework */; };
+		4C6F4DBA198A3CCD001FAA51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6F4DB9198A3CCD001FAA51 /* UIKit.framework */; };
+		4C6F4DC2198A3CCD001FAA51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C6F4DC0198A3CCD001FAA51 /* InfoPlist.strings */; };
+		4C6F4DC4198A3CCD001FAA51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F4DC3198A3CCD001FAA51 /* main.m */; };
+		4C6F4DC8198A3CCD001FAA51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F4DC7198A3CCD001FAA51 /* AppDelegate.m */; };
+		4C6F4DCB198A3CCD001FAA51 /* VestiumiOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F4DC9198A3CCD001FAA51 /* VestiumiOS.xcdatamodeld */; };
+		4C6F4DCD198A3CCD001FAA51 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C6F4DCC198A3CCD001FAA51 /* Images.xcassets */; };
+		4C6F4DD4198A3CCD001FAA51 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6F4DD3198A3CCD001FAA51 /* XCTest.framework */; };
+		4C6F4DD5198A3CCD001FAA51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6F4DB5198A3CCD001FAA51 /* Foundation.framework */; };
+		4C6F4DD6198A3CCD001FAA51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6F4DB9198A3CCD001FAA51 /* UIKit.framework */; };
+		4C6F4DD7198A3CCD001FAA51 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6F4DBB198A3CCD001FAA51 /* CoreData.framework */; };
+		4C6F4DDF198A3CCD001FAA51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C6F4DDD198A3CCD001FAA51 /* InfoPlist.strings */; };
+		4C6F4DE1198A3CCD001FAA51 /* VestiumiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F4DE0198A3CCD001FAA51 /* VestiumiOSTests.m */; };
+		4C6F4DF4198A3DAC001FAA51 /* ExploreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F4DEB198A3DAC001FAA51 /* ExploreViewController.m */; };
+		4C6F4DF5198A3DAC001FAA51 /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F4DED198A3DAC001FAA51 /* RegistrationViewController.m */; };
+		4C6F4DF6198A3DAC001FAA51 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F4DEF198A3DAC001FAA51 /* SearchViewController.m */; };
+		4C6F4DF7198A3DAC001FAA51 /* TrendingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F4DF1198A3DAC001FAA51 /* TrendingViewController.m */; };
+		4C6F4DF8198A3DAC001FAA51 /* UploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F4DF3198A3DAC001FAA51 /* UploadViewController.m */; };
+		4C6F4DFF198A3DD0001FAA51 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F4DFB198A3DD0001FAA51 /* MenuViewController.m */; };
+		4C6F4E00198A3DD0001FAA51 /* VUITabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F4DFE198A3DD0001FAA51 /* VUITabBarController.m */; };
+		4C6F4E11198A3E57001FAA51 /* VUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F4E0C198A3E57001FAA51 /* VUIButton.m */; };
+		4C6F4E12198A3E57001FAA51 /* VUITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F4E0E198A3E57001FAA51 /* VUITextField.m */; };
+		4C6F4E1A198A3E83001FAA51 /* SideMenuItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C6F4E15198A3E83001FAA51 /* SideMenuItemCell.xib */; };
+		4C6F4E1B198A3E83001FAA51 /* VUILandscapePostViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F4E17198A3E83001FAA51 /* VUILandscapePostViewCell.m */; };
+		4C6F4E1C198A3E83001FAA51 /* VUIStandardPostViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F4E19198A3E83001FAA51 /* VUIStandardPostViewCell.m */; };
+		4C6F4E20198A3EDA001FAA51 /* CameraControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F4E1F198A3EDA001FAA51 /* CameraControlView.m */; };
+		4C6F4E27198A3EFE001FAA51 /* CameraButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F4E22198A3EFE001FAA51 /* CameraButton.m */; };
+		4C6F4E28198A3EFE001FAA51 /* VUIImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F4E24198A3EFE001FAA51 /* VUIImagePickerController.m */; };
+		4C6F4E29198A3EFE001FAA51 /* VUITag.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F4E26198A3EFE001FAA51 /* VUITag.m */; };
+		4C6F4E2F198A4133001FAA51 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F4E2C198A4133001FAA51 /* Post.m */; };
+		4C6F4E30198A4133001FAA51 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F4E2E198A4133001FAA51 /* User.m */; };
+		4C6F4E36198A417F001FAA51 /* img_1253.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C6F4E31198A417F001FAA51 /* img_1253.jpg */; };
+		4C6F4E37198A417F001FAA51 /* landscape_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C6F4E32198A417F001FAA51 /* landscape_background.png */; };
+		4C6F4E38198A417F001FAA51 /* profile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C6F4E33198A417F001FAA51 /* profile.jpg */; };
+		4C6F4E39198A417F001FAA51 /* test_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C6F4E34198A417F001FAA51 /* test_background@2x.png */; };
+		4C6F4E3A198A417F001FAA51 /* test_user@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C6F4E35198A417F001FAA51 /* test_user@2x.png */; };
+		4C6F4E3E198A41B4001FAA51 /* mens-wear-dog-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C6F4E3C198A41B4001FAA51 /* mens-wear-dog-2.jpg */; };
+		4C6F4E3F198A41B4001FAA51 /* trending_image@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C6F4E3D198A41B4001FAA51 /* trending_image@2x.jpg */; };
+		4C7626A1198A473E00E19072 /* ImagePanScrollBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7626A0198A473E00E19072 /* ImagePanScrollBarView.m */; };
+		4CB08BBF198AB60E003C3A42 /* Label.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB08BBE198AB60E003C3A42 /* Label.m */; };
+		4CB08BC2198ABAC0003C3A42 /* Vestium.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB08BC1198ABAC0003C3A42 /* Vestium.m */; };
+		6F3F7743A3B2490DBEE66F56 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C45542E6996A4E3899075C4D /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C6F4DD8198A3CCD001FAA51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C6F4DAA198A3CCD001FAA51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C6F4DB1198A3CCD001FAA51;
+			remoteInfo = VestiumiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A165803C24B4696B90FA6BB /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		48E8701A19924BB4003BF07D /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		48E8701B19924BB4003BF07D /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		48E8701D19925F96003BF07D /* cover.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cover.jpeg; sourceTree = "<group>"; };
+		48E870211992782C003BF07D /* cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cover.jpg; sourceTree = "<group>"; };
+		4C5D50A2198FE1D00015A31A /* NSDate+Relativate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Relativate.h"; sourceTree = "<group>"; };
+		4C5D50A3198FE1D00015A31A /* NSDate+Relativate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Relativate.m"; sourceTree = "<group>"; };
+		4C5D50A61990DE010015A31A /* STTweetLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTweetLabel.h; sourceTree = "<group>"; };
+		4C5D50A71990DE010015A31A /* STTweetLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTweetLabel.m; sourceTree = "<group>"; };
+		4C5D50A81990DE010015A31A /* STTweetTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTweetTextStorage.h; sourceTree = "<group>"; };
+		4C5D50A91990DE010015A31A /* STTweetTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTweetTextStorage.m; sourceTree = "<group>"; };
+		4C6E4D0C198E6A1D005712B9 /* DetailedPostController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedPostController.h; sourceTree = "<group>"; };
+		4C6E4D0D198E6A1D005712B9 /* DetailedPostController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedPostController.m; sourceTree = "<group>"; };
+		4C6E4D0F198E77EF005712B9 /* Colours.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Colours.strings; sourceTree = "<group>"; };
+		4C6E4D18198F7BF2005712B9 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		4C6E4D22198F8070005712B9 /* LEColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEColorPicker.h; sourceTree = "<group>"; };
+		4C6E4D23198F8070005712B9 /* LEColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEColorPicker.m; sourceTree = "<group>"; };
+		4C6E4D24198F8070005712B9 /* UIColor+YUVSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+YUVSpace.h"; sourceTree = "<group>"; };
+		4C6E4D25198F8070005712B9 /* UIColor+YUVSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YUVSpace.m"; sourceTree = "<group>"; };
+		4C6F4DB2198A3CCD001FAA51 /* Vestium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vestium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6F4DB5198A3CCD001FAA51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C6F4DB7198A3CCD001FAA51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4C6F4DB9198A3CCD001FAA51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4C6F4DBB198A3CCD001FAA51 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4C6F4DBF198A3CCD001FAA51 /* Vestium-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Vestium-Info.plist"; sourceTree = "<group>"; };
+		4C6F4DC1198A3CCD001FAA51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C6F4DC3198A3CCD001FAA51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C6F4DC5198A3CCD001FAA51 /* Vestium-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vestium-Prefix.pch"; sourceTree = "<group>"; };
+		4C6F4DC6198A3CCD001FAA51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C6F4DC7198A3CCD001FAA51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C6F4DCA198A3CCD001FAA51 /* VestiumiOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VestiumiOS.xcdatamodel; sourceTree = "<group>"; };
+		4C6F4DCC198A3CCD001FAA51 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4C6F4DD2198A3CCD001FAA51 /* VestiumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VestiumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6F4DD3198A3CCD001FAA51 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4C6F4DDC198A3CCD001FAA51 /* VestiumTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VestiumTests-Info.plist"; sourceTree = "<group>"; };
+		4C6F4DDE198A3CCD001FAA51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C6F4DE0198A3CCD001FAA51 /* VestiumiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VestiumiOSTests.m; sourceTree = "<group>"; };
+		4C6F4DEA198A3DAC001FAA51 /* ExploreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExploreViewController.h; sourceTree = "<group>"; };
+		4C6F4DEB198A3DAC001FAA51 /* ExploreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExploreViewController.m; sourceTree = "<group>"; };
+		4C6F4DEC198A3DAC001FAA51 /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
+		4C6F4DED198A3DAC001FAA51 /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
+		4C6F4DEE198A3DAC001FAA51 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		4C6F4DEF198A3DAC001FAA51 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		4C6F4DF0198A3DAC001FAA51 /* TrendingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrendingViewController.h; sourceTree = "<group>"; };
+		4C6F4DF1198A3DAC001FAA51 /* TrendingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrendingViewController.m; sourceTree = "<group>"; };
+		4C6F4DF2198A3DAC001FAA51 /* UploadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadViewController.h; sourceTree = "<group>"; };
+		4C6F4DF3198A3DAC001FAA51 /* UploadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadViewController.m; sourceTree = "<group>"; };
+		4C6F4DFA198A3DD0001FAA51 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		4C6F4DFB198A3DD0001FAA51 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		4C6F4DFC198A3DD0001FAA51 /* VestiumUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VestiumUI.h; sourceTree = "<group>"; };
+		4C6F4DFD198A3DD0001FAA51 /* VUITabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VUITabBarController.h; sourceTree = "<group>"; };
+		4C6F4DFE198A3DD0001FAA51 /* VUITabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VUITabBarController.m; sourceTree = "<group>"; };
+		4C6F4E02198A3E32001FAA51 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		4C6F4E03198A3E32001FAA51 /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		4C6F4E04198A3E32001FAA51 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		4C6F4E05198A3E32001FAA51 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		4C6F4E0B198A3E57001FAA51 /* VUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VUIButton.h; sourceTree = "<group>"; };
+		4C6F4E0C198A3E57001FAA51 /* VUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VUIButton.m; sourceTree = "<group>"; };
+		4C6F4E0D198A3E57001FAA51 /* VUITextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VUITextField.h; sourceTree = "<group>"; };
+		4C6F4E0E198A3E57001FAA51 /* VUITextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VUITextField.m; sourceTree = "<group>"; };
+		4C6F4E15198A3E83001FAA51 /* SideMenuItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuItemCell.xib; sourceTree = "<group>"; };
+		4C6F4E16198A3E83001FAA51 /* VUILandscapePostViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VUILandscapePostViewCell.h; sourceTree = "<group>"; };
+		4C6F4E17198A3E83001FAA51 /* VUILandscapePostViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VUILandscapePostViewCell.m; sourceTree = "<group>"; };
+		4C6F4E18198A3E83001FAA51 /* VUIStandardPostViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VUIStandardPostViewCell.h; sourceTree = "<group>"; };
+		4C6F4E19198A3E83001FAA51 /* VUIStandardPostViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VUIStandardPostViewCell.m; sourceTree = "<group>"; };
+		4C6F4E1E198A3EDA001FAA51 /* CameraControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraControlView.h; sourceTree = "<group>"; };
+		4C6F4E1F198A3EDA001FAA51 /* CameraControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraControlView.m; sourceTree = "<group>"; };
+		4C6F4E21198A3EFE001FAA51 /* CameraButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraButton.h; sourceTree = "<group>"; };
+		4C6F4E22198A3EFE001FAA51 /* CameraButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraButton.m; sourceTree = "<group>"; };
+		4C6F4E23198A3EFE001FAA51 /* VUIImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VUIImagePickerController.h; sourceTree = "<group>"; };
+		4C6F4E24198A3EFE001FAA51 /* VUIImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VUIImagePickerController.m; sourceTree = "<group>"; };
+		4C6F4E25198A3EFE001FAA51 /* VUITag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VUITag.h; sourceTree = "<group>"; };
+		4C6F4E26198A3EFE001FAA51 /* VUITag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VUITag.m; sourceTree = "<group>"; };
+		4C6F4E2B198A4133001FAA51 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		4C6F4E2C198A4133001FAA51 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		4C6F4E2D198A4133001FAA51 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		4C6F4E2E198A4133001FAA51 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		4C6F4E31198A417F001FAA51 /* img_1253.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_1253.jpg; sourceTree = "<group>"; };
+		4C6F4E32198A417F001FAA51 /* landscape_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = landscape_background.png; sourceTree = "<group>"; };
+		4C6F4E33198A417F001FAA51 /* profile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile.jpg; sourceTree = "<group>"; };
+		4C6F4E34198A417F001FAA51 /* test_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test_background@2x.png"; sourceTree = "<group>"; };
+		4C6F4E35198A417F001FAA51 /* test_user@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test_user@2x.png"; sourceTree = "<group>"; };
+		4C6F4E3C198A41B4001FAA51 /* mens-wear-dog-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mens-wear-dog-2.jpg"; sourceTree = "<group>"; };
+		4C6F4E3D198A41B4001FAA51 /* trending_image@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "trending_image@2x.jpg"; sourceTree = "<group>"; };
+		4C76269F198A473E00E19072 /* ImagePanScrollBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePanScrollBarView.h; sourceTree = "<group>"; };
+		4C7626A0198A473E00E19072 /* ImagePanScrollBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePanScrollBarView.m; sourceTree = "<group>"; };
+		4CB08BBD198AB60E003C3A42 /* Label.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Label.h; sourceTree = "<group>"; };
+		4CB08BBE198AB60E003C3A42 /* Label.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Label.m; sourceTree = "<group>"; };
+		4CB08BC0198ABAC0003C3A42 /* Vestium.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vestium.h; sourceTree = "<group>"; };
+		4CB08BC1198ABAC0003C3A42 /* Vestium.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vestium.m; sourceTree = "<group>"; };
+		C45542E6996A4E3899075C4D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C6F4DAF198A3CCD001FAA51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6E4D19198F7BF2005712B9 /* OpenGLES.framework in Frameworks */,
+				4C6F4DB8198A3CCD001FAA51 /* CoreGraphics.framework in Frameworks */,
+				4C6F4DBA198A3CCD001FAA51 /* UIKit.framework in Frameworks */,
+				4C6F4DB6198A3CCD001FAA51 /* Foundation.framework in Frameworks */,
+				6F3F7743A3B2490DBEE66F56 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6F4DCF198A3CCD001FAA51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6F4DD4198A3CCD001FAA51 /* XCTest.framework in Frameworks */,
+				4C6F4DD7198A3CCD001FAA51 /* CoreData.framework in Frameworks */,
+				4C6F4DD6198A3CCD001FAA51 /* UIKit.framework in Frameworks */,
+				4C6F4DD5198A3CCD001FAA51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C5D50A51990DE010015A31A /* STTweetLabel */ = {
+			isa = PBXGroup;
+			children = (
+				4C5D50A61990DE010015A31A /* STTweetLabel.h */,
+				4C5D50A71990DE010015A31A /* STTweetLabel.m */,
+				4C5D50A81990DE010015A31A /* STTweetTextStorage.h */,
+				4C5D50A91990DE010015A31A /* STTweetTextStorage.m */,
+			);
+			path = STTweetLabel;
+			sourceTree = "<group>";
+		};
+		4C6E4D21198F8070005712B9 /* LEColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				4C6E4D22198F8070005712B9 /* LEColorPicker.h */,
+				4C6E4D23198F8070005712B9 /* LEColorPicker.m */,
+				4C6E4D24198F8070005712B9 /* UIColor+YUVSpace.h */,
+				4C6E4D25198F8070005712B9 /* UIColor+YUVSpace.m */,
+			);
+			path = LEColorPicker;
+			sourceTree = "<group>";
+		};
+		4C6F4DA9198A3CCD001FAA51 = {
+			isa = PBXGroup;
+			children = (
+				4C6F4E3B198A4184001FAA51 /* Temp Resources */,
+				4C6F4DBD198A3CCD001FAA51 /* VestiumiOS */,
+				4C6F4DDA198A3CCD001FAA51 /* VestiumiOSTests */,
+				4C6F4DB4198A3CCD001FAA51 /* Frameworks */,
+				4C6F4DB3198A3CCD001FAA51 /* Products */,
+				3A165803C24B4696B90FA6BB /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		4C6F4DB3198A3CCD001FAA51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C6F4DB2198A3CCD001FAA51 /* Vestium.app */,
+				4C6F4DD2198A3CCD001FAA51 /* VestiumTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C6F4DB4198A3CCD001FAA51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C6E4D18198F7BF2005712B9 /* OpenGLES.framework */,
+				4C6F4DB5198A3CCD001FAA51 /* Foundation.framework */,
+				4C6F4DB7198A3CCD001FAA51 /* CoreGraphics.framework */,
+				4C6F4DB9198A3CCD001FAA51 /* UIKit.framework */,
+				4C6F4DBB198A3CCD001FAA51 /* CoreData.framework */,
+				4C6F4DD3198A3CCD001FAA51 /* XCTest.framework */,
+				C45542E6996A4E3899075C4D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C6F4DBD198A3CCD001FAA51 /* VestiumiOS */ = {
+			isa = PBXGroup;
+			children = (
+				4C6F4E01198A3DDC001FAA51 /* VestiumUI */,
+				4C6F4DFD198A3DD0001FAA51 /* VUITabBarController.h */,
+				4C6F4DFE198A3DD0001FAA51 /* VUITabBarController.m */,
+				4C76269E198A457400E19072 /* Objects */,
+				4CB08BB9198A5DC2003C3A42 /* View Controller Interfaces */,
+				4C6F4DF9198A3DB0001FAA51 /* View Controllers */,
+				4C6F4DC6198A3CCD001FAA51 /* AppDelegate.h */,
+				4C6F4DC7198A3CCD001FAA51 /* AppDelegate.m */,
+				4C6F4DCC198A3CCD001FAA51 /* Images.xcassets */,
+				4C6F4DC9198A3CCD001FAA51 /* VestiumiOS.xcdatamodeld */,
+				4C6F4DBE198A3CCD001FAA51 /* Supporting Files */,
+			);
+			path = VestiumiOS;
+			sourceTree = "<group>";
+		};
+		4C6F4DBE198A3CCD001FAA51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CB08BC0198ABAC0003C3A42 /* Vestium.h */,
+				4CB08BC1198ABAC0003C3A42 /* Vestium.m */,
+				4C6F4DBF198A3CCD001FAA51 /* Vestium-Info.plist */,
+				4C6F4DC0198A3CCD001FAA51 /* InfoPlist.strings */,
+				4C6F4DC3198A3CCD001FAA51 /* main.m */,
+				4C6F4DC5198A3CCD001FAA51 /* Vestium-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C6F4DDA198A3CCD001FAA51 /* VestiumiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C6F4DE0198A3CCD001FAA51 /* VestiumiOSTests.m */,
+				4C6F4DDB198A3CCD001FAA51 /* Supporting Files */,
+			);
+			path = VestiumiOSTests;
+			sourceTree = "<group>";
+		};
+		4C6F4DDB198A3CCD001FAA51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C6F4DDC198A3CCD001FAA51 /* VestiumTests-Info.plist */,
+				4C6F4DDD198A3CCD001FAA51 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C6F4DF9198A3DB0001FAA51 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4C6F4DED198A3DAC001FAA51 /* RegistrationViewController.m */,
+				4C6F4DFB198A3DD0001FAA51 /* MenuViewController.m */,
+				4C6F4DF3198A3DAC001FAA51 /* UploadViewController.m */,
+				4C6F4DF1198A3DAC001FAA51 /* TrendingViewController.m */,
+				4C6F4DEB198A3DAC001FAA51 /* ExploreViewController.m */,
+				4C6F4DEF198A3DAC001FAA51 /* SearchViewController.m */,
+				4C6E4D0D198E6A1D005712B9 /* DetailedPostController.m */,
+				48E8701B19924BB4003BF07D /* ProfileViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		4C6F4E01198A3DDC001FAA51 /* VestiumUI */ = {
+			isa = PBXGroup;
+			children = (
+				4C6F4DFC198A3DD0001FAA51 /* VestiumUI.h */,
+				4C6F4E06198A3E38001FAA51 /* Lato */,
+				4C5D50A2198FE1D00015A31A /* NSDate+Relativate.h */,
+				4C5D50A3198FE1D00015A31A /* NSDate+Relativate.m */,
+				4C6E4D21198F8070005712B9 /* LEColorPicker */,
+				4C5D50A51990DE010015A31A /* STTweetLabel */,
+				4C6F4E1D198A3E8B001FAA51 /* Interface */,
+				4C6F4E13198A3E5D001FAA51 /* FlatUI */,
+				4C6E4D0F198E77EF005712B9 /* Colours.strings */,
+			);
+			name = VestiumUI;
+			sourceTree = "<group>";
+		};
+		4C6F4E06198A3E38001FAA51 /* Lato */ = {
+			isa = PBXGroup;
+			children = (
+				4C6F4E02198A3E32001FAA51 /* Lato-Bold.ttf */,
+				4C6F4E03198A3E32001FAA51 /* Lato-Italic.ttf */,
+				4C6F4E04198A3E32001FAA51 /* Lato-Light.ttf */,
+				4C6F4E05198A3E32001FAA51 /* Lato-Regular.ttf */,
+			);
+			name = Lato;
+			sourceTree = "<group>";
+		};
+		4C6F4E13198A3E5D001FAA51 /* FlatUI */ = {
+			isa = PBXGroup;
+			children = (
+				4C6F4E0B198A3E57001FAA51 /* VUIButton.h */,
+				4C6F4E0C198A3E57001FAA51 /* VUIButton.m */,
+				4C6F4E0D198A3E57001FAA51 /* VUITextField.h */,
+				4C6F4E0E198A3E57001FAA51 /* VUITextField.m */,
+			);
+			name = FlatUI;
+			sourceTree = "<group>";
+		};
+		4C6F4E1D198A3E8B001FAA51 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				4C76269F198A473E00E19072 /* ImagePanScrollBarView.h */,
+				4C7626A0198A473E00E19072 /* ImagePanScrollBarView.m */,
+				4C6F4E16198A3E83001FAA51 /* VUILandscapePostViewCell.h */,
+				4C6F4E17198A3E83001FAA51 /* VUILandscapePostViewCell.m */,
+				4C6F4E18198A3E83001FAA51 /* VUIStandardPostViewCell.h */,
+				4C6F4E19198A3E83001FAA51 /* VUIStandardPostViewCell.m */,
+				4C6F4E1E198A3EDA001FAA51 /* CameraControlView.h */,
+				4C6F4E1F198A3EDA001FAA51 /* CameraControlView.m */,
+				4C6F4E21198A3EFE001FAA51 /* CameraButton.h */,
+				4C6F4E22198A3EFE001FAA51 /* CameraButton.m */,
+				4C6F4E23198A3EFE001FAA51 /* VUIImagePickerController.h */,
+				4C6F4E24198A3EFE001FAA51 /* VUIImagePickerController.m */,
+				4C6F4E25198A3EFE001FAA51 /* VUITag.h */,
+				4C6F4E26198A3EFE001FAA51 /* VUITag.m */,
+				4C6F4E15198A3E83001FAA51 /* SideMenuItemCell.xib */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+		4C6F4E3B198A4184001FAA51 /* Temp Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4C6F4E3C198A41B4001FAA51 /* mens-wear-dog-2.jpg */,
+				4C6F4E3D198A41B4001FAA51 /* trending_image@2x.jpg */,
+				4C6F4E31198A417F001FAA51 /* img_1253.jpg */,
+				48E8701D19925F96003BF07D /* cover.jpeg */,
+				48E870211992782C003BF07D /* cover.jpg */,
+				4C6F4E32198A417F001FAA51 /* landscape_background.png */,
+				4C6F4E33198A417F001FAA51 /* profile.jpg */,
+				4C6F4E34198A417F001FAA51 /* test_background@2x.png */,
+				4C6F4E35198A417F001FAA51 /* test_user@2x.png */,
+			);
+			name = "Temp Resources";
+			path = VestiumiOS;
+			sourceTree = "<group>";
+		};
+		4C76269E198A457400E19072 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				4C6F4E2B198A4133001FAA51 /* Post.h */,
+				4C6F4E2C198A4133001FAA51 /* Post.m */,
+				4C6F4E2D198A4133001FAA51 /* User.h */,
+				4C6F4E2E198A4133001FAA51 /* User.m */,
+				4CB08BBD198AB60E003C3A42 /* Label.h */,
+				4CB08BBE198AB60E003C3A42 /* Label.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		4CB08BB9198A5DC2003C3A42 /* View Controller Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				4C6F4DEA198A3DAC001FAA51 /* ExploreViewController.h */,
+				4C6F4DEC198A3DAC001FAA51 /* RegistrationViewController.h */,
+				4C6F4DEE198A3DAC001FAA51 /* SearchViewController.h */,
+				4C6F4DF0198A3DAC001FAA51 /* TrendingViewController.h */,
+				4C6F4DF2198A3DAC001FAA51 /* UploadViewController.h */,
+				4C6F4DFA198A3DD0001FAA51 /* MenuViewController.h */,
+				48E8701A19924BB4003BF07D /* ProfileViewController.h */,
+				4C6E4D0C198E6A1D005712B9 /* DetailedPostController.h */,
+			);
+			name = "View Controller Interfaces";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C6F4DB1198A3CCD001FAA51 /* Vestium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C6F4DE4198A3CCD001FAA51 /* Build configuration list for PBXNativeTarget "Vestium" */;
+			buildPhases = (
+				6444E133B0104710BB62A5B0 /* Check Pods Manifest.lock */,
+				4C6F4DAE198A3CCD001FAA51 /* Sources */,
+				4C6F4DAF198A3CCD001FAA51 /* Frameworks */,
+				4C6F4DB0198A3CCD001FAA51 /* Resources */,
+				9982694E82CF4983A55F9F64 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vestium;
+			productName = VestiumiOS;
+			productReference = 4C6F4DB2198A3CCD001FAA51 /* Vestium.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C6F4DD1198A3CCD001FAA51 /* VestiumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C6F4DE7198A3CCD001FAA51 /* Build configuration list for PBXNativeTarget "VestiumTests" */;
+			buildPhases = (
+				4C6F4DCE198A3CCD001FAA51 /* Sources */,
+				4C6F4DCF198A3CCD001FAA51 /* Frameworks */,
+				4C6F4DD0198A3CCD001FAA51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C6F4DD9198A3CCD001FAA51 /* PBXTargetDependency */,
+			);
+			name = VestiumTests;
+			productName = VestiumiOSTests;
+			productReference = 4C6F4DD2198A3CCD001FAA51 /* VestiumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C6F4DAA198A3CCD001FAA51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Vestium Limited";
+				TargetAttributes = {
+					4C6F4DD1198A3CCD001FAA51 = {
+						TestTargetID = 4C6F4DB1198A3CCD001FAA51;
+					};
+				};
+			};
+			buildConfigurationList = 4C6F4DAD198A3CCD001FAA51 /* Build configuration list for PBXProject "Vestium" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C6F4DA9198A3CCD001FAA51;
+			productRefGroup = 4C6F4DB3198A3CCD001FAA51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C6F4DB1198A3CCD001FAA51 /* Vestium */,
+				4C6F4DD1198A3CCD001FAA51 /* VestiumTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C6F4DB0198A3CCD001FAA51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6F4E1A198A3E83001FAA51 /* SideMenuItemCell.xib in Resources */,
+				4C6F4E38198A417F001FAA51 /* profile.jpg in Resources */,
+				4C6F4DC2198A3CCD001FAA51 /* InfoPlist.strings in Resources */,
+				4C6F4E3A198A417F001FAA51 /* test_user@2x.png in Resources */,
+				4C6F4E36198A417F001FAA51 /* img_1253.jpg in Resources */,
+				48E870221992782C003BF07D /* cover.jpg in Resources */,
+				48E8701E19925F96003BF07D /* cover.jpeg in Resources */,
+				4C6F4E3E198A41B4001FAA51 /* mens-wear-dog-2.jpg in Resources */,
+				4C6E4D10198E77EF005712B9 /* Colours.strings in Resources */,
+				4C6F4E37198A417F001FAA51 /* landscape_background.png in Resources */,
+				4C6F4DCD198A3CCD001FAA51 /* Images.xcassets in Resources */,
+				4C6F4E39198A417F001FAA51 /* test_background@2x.png in Resources */,
+				4C6F4E3F198A41B4001FAA51 /* trending_image@2x.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6F4DD0198A3CCD001FAA51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6F4DDF198A3CCD001FAA51 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6444E133B0104710BB62A5B0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9982694E82CF4983A55F9F64 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C6F4DAE198A3CCD001FAA51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6F4E12198A3E57001FAA51 /* VUITextField.m in Sources */,
+				4C6E4D0E198E6A1D005712B9 /* DetailedPostController.m in Sources */,
+				4C6F4DF7198A3DAC001FAA51 /* TrendingViewController.m in Sources */,
+				4C6F4E11198A3E57001FAA51 /* VUIButton.m in Sources */,
+				48E8701C19924BB4003BF07D /* ProfileViewController.m in Sources */,
+				4C5D50AB1990DE010015A31A /* STTweetTextStorage.m in Sources */,
+				4C6F4E20198A3EDA001FAA51 /* CameraControlView.m in Sources */,
+				4C6F4E30198A4133001FAA51 /* User.m in Sources */,
+				4C6F4DFF198A3DD0001FAA51 /* MenuViewController.m in Sources */,
+				4C6F4E29198A3EFE001FAA51 /* VUITag.m in Sources */,
+				4C6F4DF4198A3DAC001FAA51 /* ExploreViewController.m in Sources */,
+				4C6F4DCB198A3CCD001FAA51 /* VestiumiOS.xcdatamodeld in Sources */,
+				4C6F4E1B198A3E83001FAA51 /* VUILandscapePostViewCell.m in Sources */,
+				4CB08BBF198AB60E003C3A42 /* Label.m in Sources */,
+				4C6F4E28198A3EFE001FAA51 /* VUIImagePickerController.m in Sources */,
+				4CB08BC2198ABAC0003C3A42 /* Vestium.m in Sources */,
+				4C6F4E27198A3EFE001FAA51 /* CameraButton.m in Sources */,
+				4C6F4E2F198A4133001FAA51 /* Post.m in Sources */,
+				4C6F4E00198A3DD0001FAA51 /* VUITabBarController.m in Sources */,
+				4C6E4D27198F8070005712B9 /* UIColor+YUVSpace.m in Sources */,
+				4C6F4E1C198A3E83001FAA51 /* VUIStandardPostViewCell.m in Sources */,
+				4C6F4DF5198A3DAC001FAA51 /* RegistrationViewController.m in Sources */,
+				4C5D50A4198FE1D00015A31A /* NSDate+Relativate.m in Sources */,
+				4C6F4DC8198A3CCD001FAA51 /* AppDelegate.m in Sources */,
+				4C6F4DF8198A3DAC001FAA51 /* UploadViewController.m in Sources */,
+				4C6F4DF6198A3DAC001FAA51 /* SearchViewController.m in Sources */,
+				4C6E4D26198F8070005712B9 /* LEColorPicker.m in Sources */,
+				4C5D50AA1990DE010015A31A /* STTweetLabel.m in Sources */,
+				4C7626A1198A473E00E19072 /* ImagePanScrollBarView.m in Sources */,
+				4C6F4DC4198A3CCD001FAA51 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6F4DCE198A3CCD001FAA51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6F4DE1198A3CCD001FAA51 /* VestiumiOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C6F4DD9198A3CCD001FAA51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C6F4DB1198A3CCD001FAA51 /* Vestium */;
+			targetProxy = 4C6F4DD8198A3CCD001FAA51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C6F4DC0198A3CCD001FAA51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C6F4DC1198A3CCD001FAA51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4C6F4DDD198A3CCD001FAA51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C6F4DDE198A3CCD001FAA51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C6F4DE2198A3CCD001FAA51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C6F4DE3198A3CCD001FAA51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C6F4DE5198A3CCD001FAA51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A165803C24B4696B90FA6BB /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VestiumiOS/Vestium-Prefix.pch";
+				INFOPLIST_FILE = "VestiumiOS/Vestium-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = Vestium;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4C6F4DE6198A3CCD001FAA51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A165803C24B4696B90FA6BB /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VestiumiOS/Vestium-Prefix.pch";
+				INFOPLIST_FILE = "VestiumiOS/Vestium-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = Vestium;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4C6F4DE8198A3CCD001FAA51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VestiumiOS.app/VestiumiOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VestiumiOS/VestiumiOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VestiumiOSTests/VestiumTests-Info.plist";
+				PRODUCT_NAME = VestiumTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4C6F4DE9198A3CCD001FAA51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VestiumiOS.app/VestiumiOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VestiumiOS/VestiumiOS-Prefix.pch";
+				INFOPLIST_FILE = "VestiumiOSTests/VestiumTests-Info.plist";
+				PRODUCT_NAME = VestiumTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C6F4DAD198A3CCD001FAA51 /* Build configuration list for PBXProject "Vestium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6F4DE2198A3CCD001FAA51 /* Debug */,
+				4C6F4DE3198A3CCD001FAA51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C6F4DE4198A3CCD001FAA51 /* Build configuration list for PBXNativeTarget "Vestium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6F4DE5198A3CCD001FAA51 /* Debug */,
+				4C6F4DE6198A3CCD001FAA51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C6F4DE7198A3CCD001FAA51 /* Build configuration list for PBXNativeTarget "VestiumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6F4DE8198A3CCD001FAA51 /* Debug */,
+				4C6F4DE9198A3CCD001FAA51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4C6F4DC9198A3CCD001FAA51 /* VestiumiOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4C6F4DCA198A3CCD001FAA51 /* VestiumiOS.xcdatamodel */,
+			);
+			currentVersion = 4C6F4DCA198A3CCD001FAA51 /* VestiumiOS.xcdatamodel */;
+			path = VestiumiOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4C6F4DAA198A3CCD001FAA51 /* Project object */;
+}
